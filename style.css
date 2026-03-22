@@ -1,0 +1,22 @@
+ * {
+    margin: 0px;
+            padding: 0px;
+            box-sizing: content-box;
+   }
+ #playGround {
+      display: flex;
+      height: 100vh;
+    }
+
+    #code {
+      width: 50%;
+      height: 100%;
+      border: 2px solid black;
+    }
+
+    #screen {
+      width: 50%;
+      height: 100%;
+      border: 2px solid black;
+      overflow: auto;
+    }
