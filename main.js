@@ -6,8 +6,8 @@ require(['vs/editor/editor.main'], function () {
   const code  = monaco.editor.create(document.getElementById('code'), {
     value: `
 <h1 class="cfont_size_40 ctext_orange">Hello Dear</h1>
-<div class="cdisplay_flex">
-<div class="cbackground_color_blue cheight_300 cwidth_200" cgap_10></div>
+<div class="cdisplay_flex cgap_10">
+<div class="cbackground_color_blue cheight_300 cwidth_200"></div>
 <div class="cbackground_color_pink  cheight_300 cwidth_200"></div>
 </div>
   `,
